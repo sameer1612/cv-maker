@@ -52,7 +52,6 @@ cv:
         end_date: 2025-09
         highlights:
           - Created dental subscription management dashboards for patients and providers; and combined all of them in a composable plug and play monorepo setup.
-          - Consolidated data form multiple EHRs and data sources using custom tailored adapters.
           - Designed and created a bespoke component system using radix and tailwind.
           - Implemented strong caching strategies to enhnace UX and added to microservice migration of the entire platform.
 
