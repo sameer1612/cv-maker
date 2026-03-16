@@ -1,0 +1,135 @@
+cv:
+  name: Sameer Kumar
+  sections:
+    about:
+      - A senior technical consultant with a solid background in diverse software development domains.
+        As a proactive individual, I have consistently taken ownership of the assigned projects and
+        have been promoted to leadership positions throughout my professional experience.
+
+    experience:
+      - company: Tarkalabs - Sedin Technologies
+        position: Senior Technical Consultant
+        location: Bengaluru, India (Remote)
+        start_date: 2021-05
+
+      - company: Mindfire Solutions
+        position: Software Engineer
+        location: Bhubaneswar, India
+        start_date: 2019-04
+        end_date: 2021-05
+
+    skills:
+      - label: Languages
+        details: Dart, Elixir, Java, JavaScript, Python, TypeScript, Ruby
+      - label: IDEs
+        details: JetBrains, Neovim, VS Code
+      - label: Databases
+        details: Firebase/Firestore, MongoDB, MySQL, PostgreSQL, SQLite3
+      - label: Frameworks
+        details: Angular, Django, Express, Flask, Flutter, NestJS, React/NextJS, Ruby on Rails, Vue
+      - label: Design
+        details: Bootstrap, Figma, Primefaces, Material, Mantine, Radix, SCSS, Tailwind
+      - label: DevOps
+        details: AWS, Docker, GCP, GitHub, GitLab, Jira/Bitbucket
+      - label: Testing
+        details: Capybara, Jasmine, Jest, Karma, Playwright, RSpec
+      - label: Management
+        details: Agile, Discovery, Kanban, Iterative waterfall, Requirement Analysis
+
+    projects:
+      - name: AICrete
+        start_date: 2025-09
+        end_date: present
+        highlights:
+          - Migrated monolith django system to django rest framework and react remix frontend.
+          - Hand rolled server side rendering of remix pages using django route handlers for incremental migration.
+          - Optimized queries to gain upto 10x speed and memory improvement on heavy analytics and datatable pages.
+          - Implemented client and server side caching and invalidation strategies.
+          - Migrated multiple jQuery based UI plugins and libraries to react equivalent and optimized for virtual DOM rendering.
+
+      - name: Subscribili
+        start_date: 2025-06
+        end_date: 2025-09
+        highlights:
+          - Created dental subscription management dashboards for patients and providers; and combined all of them in a composable plug and play monorepo setup.
+          - Consolidated data form multiple EHRs and data sources using custom tailored adapters.
+          - Designed and created a bespoke component system using radix and tailwind.
+          - Implemented strong caching strategies to enhnace UX and added to microservice migration of the entire platform.
+
+      - name: KCH
+        start_date: 2025-01
+        end_date: 2025-06
+        highlights:
+          - Moved the existing windows based patient registration application to on prem private cloud.
+          - Configured and deployed the application in multiple environments using Arcon PAM.
+          - Rearchtected the application to use FHIR instead of older HL7 standards.
+          - Oracle millennium FHIR integration for custom oauth, patient data and appointment management.
+
+      - name: Engie
+        start_date: 2024-11
+        end_date: 2025-01
+        highlights:
+          - Led a ROR team for migrating a suite of 5 rails application from version 4 to 7.
+          - Upgraded gitlab pipeline and docker setup for migrated monolith and supporting microservices.
+
+      - name: SITA - DigiHub
+        start_date: 2023-11
+        end_date: 2024-09
+        highlights:
+          - Led the frontend team for creating a multinational airline and airport data aggregation platform.
+          - Migrated existing platform to the latest angular v18 architecture with microservices approach, sourcing data from Microsoft, ServiceNow and Salesforce.
+          - Integrated Azure B2C auth, storage, powerBI, sharepoint, and more.
+          - Worked on brand level redesign and implemented it as an angular component library using primeNG and tailwind.
+
+      - name: GAEA - Exto
+        start_date: 2022-09
+        end_date: 2023-08
+        highlights:
+          - Created an adaptive algorithm for scheduling activities and resources in the project management system.
+          - Modernized legacy express codebase and implemented a policy-based authorization layer for access control and user impersonation.
+          - Developed the v2 backend with MongoDB and NestJS, and retrofitted Jest and Playwright tests.
+          - Implemented the new scheduling UI with Angular, Bryntum Gantt and primeNG.
+
+      - name: Exeter - Kriyadocs
+        start_date: 2022-03
+        end_date: 2022-07
+        highlights:
+          - Created a React library using Prosemirror(Remirror) to facilitate collaborative rich text editing.
+          - Worked on gitlab CI/CD and private npm registry for the library.
+          - Developed the new dashboard to use the above UI library using LibXML, YJS WebRTC, Bootstrap, and Fastify APIs.
+
+      - name: ClinicalMind - DNA
+        start_date: 2021-05
+        end_date: 2022-05
+        highlights:
+          - Enabled SSR for React components within the Rails monolith and refactored into manageable engines.
+          - Created SFTP hot folder configuration for report processing and data ingestion pipeline.
+          - Created a Java spring boot application for word and powerpoint processing using Aspose toolchain.
+
+      - name: Collectively - theAmplify
+        start_date: 2019-04
+        end_date: 2021-05
+        highlights:
+          - Created data visualization dashboards using Google Datastudio and Looker to track how social media content and influencers perform in real-time.
+          - Developed a suite of services for analyzing content creators like anomaly detection, demographics analysis, and content sanity checks in ruby and python.
+          - Developed a NLP utility for sentiment analysis, user clustering and topic weightage using the Google AutoML platform and Ernie RPC based servers.
+          - Upgraded the Rails v4 application to a modern webpacker-based Rails 6 setup and integrated SSR React for complex interactivity.
+          - Migrated the legacy class based react javascript codebase to more manageable typescript based functional components and styled components library.
+
+    education:
+      - institution: Silicon University
+        area: Computer Science and Engineering
+        degree: B.Tech
+        location: Bhubaneswar, India
+        start_date: 2015
+        end_date: 2019
+
+    socials:
+      - label: Email
+        details: sameer@tarkalabs.com
+      - label: LinkedIn
+        details: https://www.linkedin.com/in/sameerkumar1612
+      - label: Github
+        details: https://github.com/sameer1612
+      - label: Medium
+        details: https://medium.com/@sameer-kumar-1612

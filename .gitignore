@@ -1,0 +1,5 @@
+**/.DS_Store
+.venv/
+rendercv_output/
+__pycache__
+.idea
