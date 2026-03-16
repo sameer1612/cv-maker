@@ -12,12 +12,6 @@
       ]
     )
   ],
-  right-content: [
-    #align(
-      right,
-      image("company_logo.jpg", width: 100%),
-    )
-  ]
 )
 
 // Print connections:

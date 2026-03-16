@@ -172,7 +172,7 @@
       column-gutter: column-gutter,
       align: alignments,
       ([#set par(spacing: design-text-leading); #left-content]),
-      ([#set par(spacing: design-text-leading); #right-content]),
+      ([#set par(spacing: design-text-leading); #set text(hyphenate: false); #right-content]),
     ),
     breakable: true,
     width: 100%,

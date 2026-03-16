@@ -43,7 +43,7 @@ design:
     vertical_space_above: 1.5cm
     vertical_space_below: 0.7cm
   entries:
-    date_and_location_width: 4.15cm
+    date_and_location_width: 5.5cm
     left_and_right_margin: 0.2cm
     horizontal_space_between_columns: 0.1cm
     vertical_space_between_entries: 2em
