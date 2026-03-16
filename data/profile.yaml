@@ -62,7 +62,7 @@ cv:
         highlights:
           - Moved the existing windows based patient registration application to on prem private cloud.
           - Configured and deployed the application in multiple environments using Arcon PAM.
-          - Rearchtected the application to use FHIR instead of older HL7 standards.
+          - Rearchitected the application to use FHIR instead of older HL7 standards.
           - Oracle millennium FHIR integration for custom oauth, patient data and appointment management.
 
       - name: Engie
