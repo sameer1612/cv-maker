@@ -7,7 +7,7 @@ cv:
         have been promoted to leadership positions throughout my professional experience.
 
     experience:
-      - company: Tarkalabs - Sedin Technologies
+      - company: Sedin Technologies
         position: Senior Technical Consultant
         location: Bengaluru, India (Remote)
         start_date: 2021-05
@@ -132,3 +132,5 @@ cv:
         details: https://github.com/sameer1612
       - label: Medium
         details: https://medium.com/@sameer-kumar-1612
+      - label: Phone
+        details: "+918117804649"

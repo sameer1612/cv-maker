@@ -3,8 +3,7 @@
 
 from __future__ import annotations
 
-import shutil
-import subprocess
+import os
 import sys
 from pathlib import Path
 
@@ -21,48 +20,36 @@ def main() -> int:
 
     config_path = Path("data/config.yaml")
     if not config_path.is_file():
-        print(f"Error: Config file '{config_path}' does not exist in the 'data' folder.")
+        print(
+            f"Error: Config file '{config_path}' does not exist in the 'data' folder."
+        )
         return 1
 
-    temp_path = Path("data/temp.yaml")
+    data_dir = Path("data").resolve()
+    profiles_dir = Path("profiles").resolve()
+    temp_path = data_dir / "temp.yaml"
     temp_path.write_bytes(input_path.read_bytes() + config_path.read_bytes())
 
+    original_dir = Path.cwd()
     try:
-        rendercv_exe = shutil.which("rendercv")
-        if rendercv_exe:
-            cmd = [
-                rendercv_exe,
-                "render",
-                str(temp_path),
-                "-nohtml",
-                "-nomd",
-                "-nopng",
-                "-pdf",
-                "profiles/",
-            ]
-        elif shutil.which("uv"):
-            cmd = [
-                "uv",
-                "run",
-                "rendercv",
-                "render",
-                str(temp_path),
-                "-nohtml",
-                "-nomd",
-                "-nopng",
-                "-pdf",
-                "profiles/",
-            ]
-        else:
-            print("Error: 'rendercv' is not installed and 'uv' is not available.")
-            print("Install dependencies with: uv sync")
-            return 1
+        from rendercv import data as rcv_data
+        from rendercv import renderer as rcv_renderer
 
-        return subprocess.run(cmd, check=False).returncode
+        os.chdir(data_dir)
+        cv = rcv_data.read_input_file(Path("temp.yaml"))
+        typst_file = rcv_renderer.create_a_typst_file_and_copy_theme_files(
+            cv, profiles_dir
+        )
+        pdf = rcv_renderer.render_a_pdf_from_typst(typst_file)
+        print(f"Generated: {pdf}")
+        return 0
+    except Exception as e:
+        print(f"Error: {e}")
+        return 1
     finally:
+        os.chdir(original_dir)
         temp_path.unlink(missing_ok=True)
 
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
