@@ -2,9 +2,7 @@ cv:
   name: Sameer Kumar
   sections:
     about:
-      - A senior technical consultant with a solid background in diverse software development domains.
-        As a proactive individual, I have consistently taken ownership of the assigned projects and
-        have been promoted to leadership positions throughout my professional experience.
+      - A systems-focused polyglot engineer who enjoys modernizing messy platforms, scaling products, and turning complex problems into clean, maintainable systems — while owning the hardest parts along the way.
 
     experience:
       - company: Sedin Technologies
@@ -18,11 +16,20 @@ cv:
         start_date: 2019-04
         end_date: 2021-05
 
+    community:
+      - title: Speaker
+        description: RubyConf India 2022 & 2025
+        link_label: DSLs in Ruby
+        url: https://www.youtube.com/watch?v=SJL9-nZIysA
+
+      - title: Technical Blog
+        description: 100K+ reads on engineering & consulting topics
+        link_label: Medium Articles
+        url: https://medium.com/@sameer-kumar-1612
+
     skills:
       - label: Languages
         details: Dart, Elixir, Java, JavaScript, Python, TypeScript, Ruby
-      - label: IDEs
-        details: JetBrains, Neovim, VS Code
       - label: Databases
         details: Firebase/Firestore, MongoDB, MySQL, PostgreSQL, SQLite3
       - label: Frameworks
@@ -33,11 +40,9 @@ cv:
         details: AWS, Docker, GCP, GitHub, GitLab, Jira/Bitbucket
       - label: Testing
         details: Capybara, Jasmine, Jest, Karma, Playwright, RSpec
-      - label: Management
-        details: Agile, Discovery, Kanban, Iterative waterfall, Requirement Analysis
 
     projects:
-      - name: AICrete
+      - name: AICrete (US)
         start_date: 2025-09
         end_date: present
         highlights:
@@ -47,7 +52,7 @@ cv:
           - Implemented client and server side caching and invalidation strategies.
           - Migrated multiple jQuery based UI plugins and libraries to react equivalent and optimized for virtual DOM rendering.
 
-      - name: Subscribili
+      - name: Subscribili (IN)
         start_date: 2025-06
         end_date: 2025-09
         highlights:
@@ -55,7 +60,7 @@ cv:
           - Designed and created a bespoke component system using radix and tailwind.
           - Implemented strong caching strategies to enhnace UX and added to microservice migration of the entire platform.
 
-      - name: KCH
+      - name: KCH (UAE)
         start_date: 2025-01
         end_date: 2025-06
         highlights:
@@ -64,14 +69,14 @@ cv:
           - Rearchitected the application to use FHIR instead of older HL7 standards.
           - Oracle millennium FHIR integration for custom oauth, patient data and appointment management.
 
-      - name: Engie
+      - name: Engie (FR)
         start_date: 2024-11
         end_date: 2025-01
         highlights:
           - Led a ROR team for migrating a suite of 5 rails application from version 4 to 7.
           - Upgraded gitlab pipeline and docker setup for migrated monolith and supporting microservices.
 
-      - name: SITA - DigiHub
+      - name: SITA - DigiHub (EU)
         start_date: 2023-11
         end_date: 2024-09
         highlights:
@@ -80,7 +85,7 @@ cv:
           - Integrated Azure B2C auth, storage, powerBI, sharepoint, and more.
           - Worked on brand level redesign and implemented it as an angular component library using primeNG and tailwind.
 
-      - name: GAEA - Exto
+      - name: GAEA - Exto (IN)
         start_date: 2022-09
         end_date: 2023-08
         highlights:
@@ -89,7 +94,7 @@ cv:
           - Developed the v2 backend with MongoDB and NestJS, and retrofitted Jest and Playwright tests.
           - Implemented the new scheduling UI with Angular, Bryntum Gantt and primeNG.
 
-      - name: Exeter - Kriyadocs
+      - name: Exeter - Kriyadocs (IN)
         start_date: 2022-03
         end_date: 2022-07
         highlights:
@@ -97,7 +102,7 @@ cv:
           - Worked on gitlab CI/CD and private npm registry for the library.
           - Developed the new dashboard to use the above UI library using LibXML, YJS WebRTC, Bootstrap, and Fastify APIs.
 
-      - name: ClinicalMind - DNA
+      - name: ClinicalMind - DNA (US)
         start_date: 2021-05
         end_date: 2022-05
         highlights:
@@ -105,7 +110,7 @@ cv:
           - Created SFTP hot folder configuration for report processing and data ingestion pipeline.
           - Created a Java spring boot application for word and powerpoint processing using Aspose toolchain.
 
-      - name: Collectively - theAmplify
+      - name: Collectively - theAmplify (US)
         start_date: 2019-04
         end_date: 2021-05
         highlights:

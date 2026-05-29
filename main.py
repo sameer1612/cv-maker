@@ -34,6 +34,29 @@ def main() -> int:
     try:
         from rendercv import data as rcv_data
         from rendercv import renderer as rcv_renderer
+        from rendercv.data.models import entry_types as rcv_entry_types
+        from rendercv.data.models.entry_types import RenderCVBaseModelWithExtraKeys
+
+        import pydantic
+
+        class CommunityEntry(RenderCVBaseModelWithExtraKeys):
+            """Custom entry type for community activities."""
+
+            title: str = pydantic.Field(description="The title or role.")
+            description: str | None = pydantic.Field(
+                default=None, description="Event or activity name."
+            )
+            url: str | None = pydantic.Field(
+                default=None, description="Link to the activity."
+            )
+            link_label: str | None = pydantic.Field(
+                default=None, description="Display text for the link."
+            )
+
+        rcv_entry_types.CommunityEntry = CommunityEntry  # type: ignore[attr-defined]
+        rcv_entry_types.available_entry_models = (
+            rcv_entry_types.available_entry_models + (CommunityEntry,)
+        )
 
         os.chdir(data_dir)
         cv = rcv_data.read_input_file(Path("temp.yaml"))
