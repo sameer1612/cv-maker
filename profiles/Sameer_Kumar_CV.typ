@@ -570,7 +570,7 @@ Apr 2019 – May 2021
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Created dental subscription management dashboards for patients and providers; and combined all of them in a composable plug and play monorepo setup.],[Designed and created a bespoke component system using radix and tailwind.],[Implemented strong caching strategies to enhnace UX and added to microservice migration of the entire platform.],)
+    #v(design-highlights-top-margin);#highlights([Created dental subscription management dashboards for patients and providers; and combined all of them in a composable plug and play monorepo setup.],[Designed and created a bespoke component system using radix and tailwind.],[Implemented strong caching strategies to enhance UX and added to microservice migration of the entire platform.],)
   ],
 )
 
