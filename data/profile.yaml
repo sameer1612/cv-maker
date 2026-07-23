@@ -5,10 +5,16 @@ cv:
       - A systems-focused polyglot engineer who enjoys modernizing messy platforms, scaling products, and turning complex problems into clean, maintainable systems — while owning the hardest parts along the way.
 
     experience:
+      - company: Zensar Technologies
+        position: Senior Lead
+        location: Bengaluru, India (Remote)
+        start_date: 2026-07
+
       - company: Sedin Technologies
         position: Senior Technical Consultant
         location: Bengaluru, India (Remote)
         start_date: 2021-05
+        end_date: 2026-07
 
       - company: Mindfire Solutions
         position: Software Engineer

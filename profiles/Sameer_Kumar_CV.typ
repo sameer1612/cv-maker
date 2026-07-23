@@ -470,6 +470,20 @@
 
 #two-col-entry(
   left-content: [
+    #[*Zensar Technologies*], Senior Lead
+
+    
+  ],
+  right-content: [
+    Bengaluru, India \(Remote\)
+
+July 2026 – present
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
     #[*Sedin Technologies*], Senior Technical Consultant
 
     
@@ -477,7 +491,7 @@
   right-content: [
     Bengaluru, India \(Remote\)
 
-May 2021 – present
+May 2021 – July 2026
   ],
 )
 
