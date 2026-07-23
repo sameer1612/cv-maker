@@ -475,7 +475,7 @@
     
   ],
   right-content: [
-    Bengaluru, India \(Remote\)
+    Pune, India \(Remote\)
 
 July 2026 – present
   ],
@@ -489,7 +489,7 @@ July 2026 – present
     
   ],
   right-content: [
-    Bengaluru, India \(Remote\)
+    Bengaluru, India
 
 May 2021 – July 2026
   ],
