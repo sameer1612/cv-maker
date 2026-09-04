@@ -13,7 +13,7 @@ def main() -> int:
         print(f"Usage: {Path(sys.argv[0]).name} [data/<profile filename>]")
         return 1
 
-    input_path = Path(sys.argv[1]) if len(sys.argv) == 2 else Path("data/profile.yaml")
+    input_path = Path(sys.argv[1]) if len(sys.argv) == 2 else Path("data/resume.yaml")
     if not input_path.is_file():
         print(f"Error: File '{input_path}' does not exist in the 'data' folder.")
         return 1
@@ -27,6 +27,8 @@ def main() -> int:
 
     data_dir = Path("data").resolve()
     profiles_dir = Path("profiles").resolve()
+    typ_dir = profiles_dir / "typ"
+    typ_dir.mkdir(exist_ok=True)
     temp_path = data_dir / "temp.yaml"
     temp_path.write_bytes(input_path.read_bytes() + config_path.read_bytes())
 
@@ -60,11 +62,16 @@ def main() -> int:
 
         os.chdir(data_dir)
         cv = rcv_data.read_input_file(Path("temp.yaml"))
-        typst_file = rcv_renderer.create_a_typst_file_and_copy_theme_files(
-            cv, profiles_dir
-        )
+        typst_file = rcv_renderer.create_a_typst_file_and_copy_theme_files(cv, typ_dir)
         pdf = rcv_renderer.render_a_pdf_from_typst(typst_file)
-        print(f"Generated: {pdf}")
+
+        output_stem = input_path.stem
+        renamed_typst_file = typst_file.with_name(f"{output_stem}{typst_file.suffix}")
+        renamed_pdf = profiles_dir / f"{output_stem}{pdf.suffix}"
+        typst_file.replace(renamed_typst_file)
+        pdf.replace(renamed_pdf)
+
+        print(f"Generated: {renamed_pdf}")
         return 0
     except Exception as e:
         print(f"Error: {e}")
