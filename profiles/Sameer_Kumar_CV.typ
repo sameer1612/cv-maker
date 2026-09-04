@@ -470,7 +470,7 @@
 
 #two-col-entry(
   left-content: [
-    #[*Zensar Technologies*], Senior Lead
+    #[*Zensar Technologies*], Senior Engineering Lead
 
     
   ],
@@ -541,11 +541,11 @@ Apr 2019 – May 2021
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#[*Frameworks:*] Angular, Django, Express, Flask, Flutter, NestJS, React/NextJS, Ruby on Rails, Vue]
+  content: [#[*Frameworks:*] Angular, Django, Express, FastAPI, Flask, Flutter, NestJS, React/Next.js, Ruby on Rails, Vue]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#[*Design:*] Bootstrap, Figma, Primefaces, Material, Mantine, Radix, SCSS, Tailwind]
+  content: [#[*Design:*] Bootstrap, Figma, PrimeFaces, Material, Mantine, Radix, SCSS, Tailwind]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
@@ -553,7 +553,7 @@ Apr 2019 – May 2021
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#[*Testing:*] Capybara, Jasmine, Jest, Karma, Playwright, RSpec]
+  content: [#[*AI/LLM:*] Claude, GPT, Gemini, Agentic Workflows, MCP, RAG, Vector Databases, Semantic Search, Knowledge Graphs, Prompt Engineering, Context Engineering, AI Evaluation, Sentiment Analysis]
 )
 
 
@@ -569,7 +569,7 @@ Apr 2019 – May 2021
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Migrated monolith django system to django rest framework and react remix frontend.],[Hand rolled server side rendering of remix pages using django route handlers for incremental migration.],[Optimized queries to gain upto 10x speed and memory improvement on heavy analytics and datatable pages.],[Implemented client and server side caching and invalidation strategies.],[Migrated multiple jQuery based UI plugins and libraries to react equivalent and optimized for virtual DOM rendering.],)
+    #v(design-highlights-top-margin);#highlights([Migrated a monolithic Django system to Django REST Framework with a React/Remix frontend.],[Hand-rolled server-side rendering of Remix pages via Django route handlers for incremental migration.],[Optimized queries for up to 10x speed and memory improvement on heavy analytics and data-table pages.],[Implemented client- and server-side caching and invalidation strategies.],[Migrated multiple jQuery-based UI plugins to React equivalents, optimized for virtual DOM rendering.],)
   ],
 )
 
@@ -584,7 +584,7 @@ Apr 2019 – May 2021
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Created dental subscription management dashboards for patients and providers; and combined all of them in a composable plug and play monorepo setup.],[Designed and created a bespoke component system using radix and tailwind.],[Implemented strong caching strategies to enhance UX and added to microservice migration of the entire platform.],)
+    #v(design-highlights-top-margin);#highlights([Built dental subscription-management dashboards for patients and providers, unified in a composable, plug-and-play monorepo.],[Designed a bespoke component system using Radix and Tailwind.],[Implemented strong caching strategies to enhance UX and contributed to the platform's microservice migration.],)
   ],
 )
 
@@ -599,7 +599,7 @@ Apr 2019 – May 2021
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Moved the existing windows based patient registration application to on prem private cloud.],[Configured and deployed the application in multiple environments using Arcon PAM.],[Rearchitected the application to use FHIR instead of older HL7 standards.],[Oracle millennium FHIR integration for custom oauth, patient data and appointment management.],)
+    #v(design-highlights-top-margin);#highlights([Migrated a Windows-based patient registration application to an on-prem private cloud.],[Configured and deployed the application across multiple environments using Arcon PAM.],[Re-architected the application from HL7 to FHIR.],[Delivered Oracle Millennium FHIR integration for custom OAuth, patient data, and appointment management.],)
   ],
 )
 
@@ -614,7 +614,7 @@ Apr 2019 – May 2021
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Led a ROR team for migrating a suite of 5 rails application from version 4 to 7.],[Upgraded gitlab pipeline and docker setup for migrated monolith and supporting microservices.],)
+    #v(design-highlights-top-margin);#highlights([Led a Ruby on Rails team migrating a suite of 5 Rails applications from version 4 to 7.],[Upgraded the GitLab pipeline and Docker setup for the migrated monolith and supporting microservices.],)
   ],
 )
 
@@ -629,7 +629,7 @@ Apr 2019 – May 2021
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Led the frontend team for creating a multinational airline and airport data aggregation platform.],[Migrated existing platform to the latest angular v18 architecture with microservices approach, sourcing data from Microsoft, ServiceNow and Salesforce.],[Integrated Azure B2C auth, storage, powerBI, sharepoint, and more.],[Worked on brand level redesign and implemented it as an angular component library using primeNG and tailwind.],)
+    #v(design-highlights-top-margin);#highlights([Led the front-end team building a multinational airline and airport data-aggregation platform.],[Migrated the platform to Angular v18 with a microservices approach, sourcing data from Microsoft, ServiceNow, and Salesforce.],[Integrated Azure B2C auth, storage, Power BI, and SharePoint.],[Led a brand-level redesign, implemented as an Angular component library using PrimeNG and Tailwind.],)
   ],
 )
 
@@ -644,7 +644,7 @@ Apr 2019 – May 2021
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Created an adaptive algorithm for scheduling activities and resources in the project management system.],[Modernized legacy express codebase and implemented a policy-based authorization layer for access control and user impersonation.],[Developed the v2 backend with MongoDB and NestJS, and retrofitted Jest and Playwright tests.],[Implemented the new scheduling UI with Angular, Bryntum Gantt and primeNG.],)
+    #v(design-highlights-top-margin);#highlights([Built an adaptive scheduling algorithm for activities and resources in the project management system.],[Modernized a legacy Express codebase and implemented a policy-based authorization layer for access control and user impersonation.],[Developed the v2 backend with MongoDB and NestJS, retrofitting Jest and Playwright test coverage.],[Implemented the new scheduling UI with Angular, Bryntum Gantt, and PrimeNG.],)
   ],
 )
 
@@ -659,7 +659,7 @@ Apr 2019 – May 2021
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Created a React library using Prosemirror\(Remirror\) to facilitate collaborative rich text editing.],[Worked on gitlab CI/CD and private npm registry for the library.],[Developed the new dashboard to use the above UI library using LibXML, YJS WebRTC, Bootstrap, and Fastify APIs.],)
+    #v(design-highlights-top-margin);#highlights([Built a React library using ProseMirror \(Remirror\) for collaborative rich-text editing.],[Set up GitLab CI/CD and a private npm registry for the library.],[Developed a new dashboard consuming the library, using LibXML, Y.js/WebRTC, Bootstrap, and Fastify APIs.],)
   ],
 )
 
@@ -674,7 +674,7 @@ Apr 2019 – May 2021
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Enabled SSR for React components within the Rails monolith and refactored into manageable engines.],[Created SFTP hot folder configuration for report processing and data ingestion pipeline.],[Created a Java spring boot application for word and powerpoint processing using Aspose toolchain.],)
+    #v(design-highlights-top-margin);#highlights([Enabled SSR for React components within a Rails monolith and refactored it into manageable engines.],[Built an SFTP hot-folder configuration for report processing and data ingestion.],[Built a Java Spring Boot application for Word and PowerPoint processing using the Aspose toolchain.],)
   ],
 )
 
@@ -689,7 +689,7 @@ Apr 2019 – May 2021
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Created data visualization dashboards using Google Datastudio and Looker to track how social media content and influencers perform in real-time.],[Developed a suite of services for analyzing content creators like anomaly detection, demographics analysis, and content sanity checks in ruby and python.],[Developed a NLP utility for sentiment analysis, user clustering and topic weightage using the Google AutoML platform and Ernie RPC based servers.],[Upgraded the Rails v4 application to a modern webpacker-based Rails 6 setup and integrated SSR React for complex interactivity.],[Migrated the legacy class based react javascript codebase to more manageable typescript based functional components and styled components library.],)
+    #v(design-highlights-top-margin);#highlights([Built data-visualization dashboards using Google Data Studio and Looker to track social media and influencer performance in real time.],[Developed services for creator analysis — anomaly detection, demographics analysis, and content sanity checks — in Ruby and Python.],[Built an NLP utility for sentiment analysis, user clustering, and topic weighting using Google AutoML and Ernie RPC-based servers.],[Upgraded a Rails v4 application to a modern Webpacker-based Rails 6 setup and integrated SSR React for complex interactivity.],[Migrated a legacy class-based React codebase to TypeScript-based functional components with styled components.],)
   ],
 )
 
