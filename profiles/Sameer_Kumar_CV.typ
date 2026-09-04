@@ -47,10 +47,10 @@
 #let design-entries-allow-page-break-in-entries = true
 #let design-entries-horizontal-space-between-columns = 0.1cm
 #let design-entries-left-and-right-margin = 0.2cm
-#let design-page-top-margin = 2cm
-#let design-page-bottom-margin = 2cm
-#let design-page-left-margin = 2cm
-#let design-page-right-margin = 2cm
+#let design-page-top-margin = 1.5cm
+#let design-page-bottom-margin = 1.5cm
+#let design-page-left-margin = 1.5cm
+#let design-page-right-margin = 1.5cm
 #let design-page-show-last-updated-date = false
 #let design-page-show-page-numbering = true
 #let design-links-underline = false
@@ -466,6 +466,29 @@
 )
 
 
+== Highlights
+
+#one-col-entry(
+  content: [- 8+ years of experience designing, modernizing, and scaling enterprise software platforms.],
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [- Led modernization programs spanning monolith decomposition, cloud adoption, and architectural transformation.],
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [- RubyConf India speaker and technical author with 100K+ reads on engineering and consulting topics.],
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [- Delivered AI-enabled products, cloud integrations, and mission-critical solutions for construction, healthcare, aviation, and SaaS organizations.],
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [- Recognized for driving platform modernization, engineering excellence, and enterprise architecture initiatives.],
+)
+
+
 == Experience
 
 #two-col-entry(
@@ -511,25 +534,6 @@ Apr 2019 – May 2021
 
 
 
-== Community
-
-#two-col-entry(
-  left-content: [
-    *Speaker*,
-    RubyConf India 2022 & 2025  ],
-  right-content: [
-#link("https://www.youtube.com/watch?v=SJL9-nZIysA")[DSLs in Ruby]  ],
-)
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    *Technical Blog*,
-    100K+ reads on engineering & consulting topics  ],
-  right-content: [
-#link("https://medium.com/\@sameer-kumar-1612")[Medium Articles]  ],
-)
-
-
 == Skills
 
 #one-col-entry(
@@ -545,7 +549,7 @@ Apr 2019 – May 2021
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#[*Design:*] Bootstrap, Figma, PrimeFaces, Material, Mantine, Radix, SCSS, Tailwind]
+  content: [#[*UI & Design:*] Bootstrap, Figma, PrimeFaces, Material, Mantine, Radix, SCSS, Tailwind]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
@@ -553,7 +557,7 @@ Apr 2019 – May 2021
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#[*AI/LLM:*] Claude, GPT, Gemini, Agentic Workflows, MCP, RAG, Vector Databases, Semantic Search, Knowledge Graphs, Prompt Engineering, Context Engineering, AI Evaluation, Sentiment Analysis]
+  content: [#[*AI/LLM:*] Claude, GPT, Gemini, Agentic Workflows, MCP, RAG/Vector Search, Knowledge Graphs, Prompt & Context Engineering, AI Evaluation, Sentiment Analysis]
 )
 
 
@@ -713,6 +717,25 @@ Apr 2019 – May 2021
   ],
 )
 
+
+
+== Community
+
+#two-col-entry(
+  left-content: [
+    *Speaker*,
+    RubyConf India 2022 & 2025  ],
+  right-content: [
+#link("https://www.youtube.com/watch?v=SJL9-nZIysA")[DSLs in Ruby]  ],
+)
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    *Technical Blog*,
+    100K+ reads on engineering & consulting topics  ],
+  right-content: [
+#link("https://medium.com/\@sameer-kumar-1612")[Medium Articles]  ],
+)
 
 
 == Socials

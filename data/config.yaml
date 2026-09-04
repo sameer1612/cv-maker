@@ -2,10 +2,10 @@ design:
   theme: orgtemplate
   page:
     size: a4
-    top_margin: 2cm
-    bottom_margin: 2cm
-    left_margin: 2cm
-    right_margin: 2cm
+    top_margin: 1.5cm
+    bottom_margin: 1.5cm
+    left_margin: 1.5cm
+    right_margin: 1.5cm
     show_page_numbering: true
     show_last_updated_date: false
   colors:

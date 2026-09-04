@@ -4,6 +4,13 @@ cv:
     about:
       - A systems-focused polyglot engineer who enjoys modernizing messy platforms, scaling products, and turning complex problems into clean, maintainable systems — while owning the hardest parts along the way.
 
+    highlights:
+      - bullet: 8+ years of experience designing, modernizing, and scaling enterprise software platforms.
+      - bullet: Led modernization programs spanning monolith decomposition, cloud adoption, and architectural transformation.
+      - bullet: RubyConf India speaker and technical author with 100K+ reads on engineering and consulting topics.
+      - bullet: Delivered AI-enabled products, cloud integrations, and mission-critical solutions for construction, healthcare, aviation, and SaaS organizations.
+      - bullet: Recognized for driving platform modernization, engineering excellence, and enterprise architecture initiatives.
+
     experience:
       - company: Zensar Technologies
         position: Senior Engineering Lead
@@ -22,17 +29,6 @@ cv:
         start_date: 2019-04
         end_date: 2021-05
 
-    community:
-      - title: Speaker
-        description: RubyConf India 2022 & 2025
-        link_label: DSLs in Ruby
-        url: https://www.youtube.com/watch?v=SJL9-nZIysA
-
-      - title: Technical Blog
-        description: 100K+ reads on engineering & consulting topics
-        link_label: Medium Articles
-        url: https://medium.com/@sameer-kumar-1612
-
     skills:
       - label: Languages
         details: Dart, Elixir, Java, JavaScript, Python, TypeScript, Ruby
@@ -40,12 +36,12 @@ cv:
         details: Firebase/Firestore, MongoDB, MySQL, PostgreSQL, SQLite3
       - label: Frameworks
         details: Angular, Django, Express, FastAPI, Flask, Flutter, NestJS, React/Next.js, Ruby on Rails, Vue
-      - label: Design
+      - label: UI & Design
         details: Bootstrap, Figma, PrimeFaces, Material, Mantine, Radix, SCSS, Tailwind
       - label: DevOps
         details: AWS, Docker, GCP, GitHub, GitLab, Jira/Bitbucket
       - label: AI/LLM
-        details: Claude, GPT, Gemini, Agentic Workflows, MCP, RAG, Vector Databases, Semantic Search, Knowledge Graphs, Prompt Engineering, Context Engineering, AI Evaluation, Sentiment Analysis
+        details: Claude, GPT, Gemini, Agentic Workflows, MCP, RAG/Vector Search, Knowledge Graphs, Prompt & Context Engineering, AI Evaluation, Sentiment Analysis
 
     projects:
       - name: AICrete (US)
@@ -133,6 +129,17 @@ cv:
         location: Bhubaneswar, India
         start_date: 2015
         end_date: 2019
+
+    community:
+      - title: Speaker
+        description: RubyConf India 2022 & 2025
+        link_label: DSLs in Ruby
+        url: https://www.youtube.com/watch?v=SJL9-nZIysA
+
+      - title: Technical Blog
+        description: 100K+ reads on engineering & consulting topics
+        link_label: Medium Articles
+        url: https://medium.com/@sameer-kumar-1612
 
     socials:
       - label: Email
