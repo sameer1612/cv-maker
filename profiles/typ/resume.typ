@@ -462,14 +462,18 @@
 == About
 
 #one-col-entry(
-  content: [A systems-focused polyglot engineer who enjoys modernizing messy platforms, scaling products, and turning complex problems into clean, maintainable systems — while owning the hardest parts along the way.]
+  content: [A systems-focused architect and engineering leader who pairs deep platform engineering with applied AI and agentic workflows — building in-house ML models, AI-assisted migrations, and clean, maintainable systems — while owning the hardest parts along the way.]
 )
 
 
 == Highlights
 
 #one-col-entry(
-  content: [- 8+ years of experience designing, modernizing, and scaling enterprise software platforms.],
+  content: [- Designed platform architectures spanning AI systems, healthcare integrations, enterprise SaaS platforms, and large-scale modernization initiatives.],
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [- 8+ years of experience designing, modernizing, and scaling enterprise software platforms, with a growing focus on AI/LLM-driven systems.],
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
@@ -478,14 +482,6 @@
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
   content: [- RubyConf India speaker and technical author with 100K+ reads on engineering and consulting topics.],
-)
-#v(design-entries-vertical-space-between-entries)
-#one-col-entry(
-  content: [- Delivered AI-enabled products, cloud integrations, and mission-critical solutions for construction, healthcare, aviation, and SaaS organizations.],
-)
-#v(design-entries-vertical-space-between-entries)
-#one-col-entry(
-  content: [- Recognized for driving platform modernization, engineering excellence, and enterprise architecture initiatives.],
 )
 
 
@@ -541,7 +537,7 @@ Apr 2019 – May 2021
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#[*Databases:*] Firebase/Firestore, MongoDB, MySQL, Oracle, PostgreSQL, SQLite3]
+  content: [#[*Databases:*] Firebase/Firestore, MongoDB, MySQL, Oracle, PostgreSQL, SQLite]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
@@ -563,137 +559,79 @@ Apr 2019 – May 2021
 
 == Projects
 
-#two-col-entry(
-  left-content: [
+
+#one-col-entry(
+  content: [
     #[*AICrete \(US\)*]
-  ],
-  right-content: [
-    Sept 2025 – present
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Migrated a monolithic Django system to Django REST Framework with a React/Remix frontend.],[Hand-rolled server-side rendering of Remix pages via Django route handlers for incremental migration.],[Optimized queries for up to 10x speed and memory improvement on heavy analytics and data-table pages.],[Implemented client- and server-side caching and invalidation strategies.],[Migrated multiple jQuery-based UI plugins to React equivalents, optimized for virtual DOM rendering.],)
+
+    #v(-design-text-leading)
+    #v(design-highlights-top-margin);#highlights([Integrated in-house AI models for aggregate classification and structural property estimation from concrete sample images.],[Built the entire React/Remix frontend using agentic coding workflows with Claude.],[Used AI-driven translation workflows and custom Claude skills to migrate the platform to French with i18n.],[Used AI-assisted analysis to decompose the Django monolith into a REST API architecture, enabling incremental frontend migration.],[Accelerated test coverage development using AI-assisted workflows, reducing manual engineering effort while improving release confidence.],[Optimized heavy analytics and table queries for up to 10x speed and memory improvement, using EXPLAIN ANALYZE-driven query analysis.],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
+
+#one-col-entry(
+  content: [
+    #[*Vidura \(IN\)*]
+
+    #v(-design-text-leading)
+    #v(design-highlights-top-margin);#highlights([Built an org-wide chat utility that ingested various types of documents into vector databases with metadata indexes for retrieval.],[Answered natural-language queries against an ever-growing organizational knowledge base using RAG.],[Rendered responses dynamically as text, charts, or tables depending on the query.],[Supported read-only natural-language queries directly against the PostgreSQL database.],[Enforced access-level security to protect sensitive data across users with different permission tiers.],[Generalized the platform into a domain-aware system that could integrate with any knowledge base.],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+
+#one-col-entry(
+  content: [
     #[*Subscribili \(IN\)*]
-  ],
-  right-content: [
-    June 2025 – Sept 2025
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Built dental subscription-management dashboards for patients and providers, unified in a composable, plug-and-play monorepo.],[Designed a bespoke component system using Radix and Tailwind.],[Implemented strong caching strategies to enhance UX and contributed to the platform's microservice migration.],)
+
+    #v(-design-text-leading)
+    #v(design-highlights-top-margin);#highlights([Used AI-assisted tooling to migrate a large legacy JavaScript codebase to a modern TypeScript structure.],[Converted Figma designs directly to code using MCP-based workflows.],[Built dental subscription-management dashboards for patients and providers, unified in a composable, plug-and-play monorepo.],[Designed a bespoke component system using Radix and Tailwind.],[Implemented caching strategies to enhance UX and contributed to the platform's microservice migration.],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
+
+#one-col-entry(
+  content: [
     #[*KCH \(UAE\)*]
-  ],
-  right-content: [
-    Jan 2025 – June 2025
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Migrated a Windows-based patient registration application to an on-prem private cloud.],[Configured and deployed the application across multiple environments using Arcon PAM.],[Re-architected the application from HL7 to FHIR.],[Delivered Oracle Millennium FHIR integration for custom OAuth, patient data, and appointment management.],)
+
+    #v(-design-text-leading)
+    #v(design-highlights-top-margin);#highlights([Used AI-assisted code analysis to reverse-engineer business logic from a 20-year-old Windows-based EHR system to an on-prem private cloud.],[Re-architected the application from HL7 to FHIR protocol and setup multi environment deployments.],[Delivered Oracle Millennium FHIR integration for custom OAuth, patient data, and appointment management.],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #[*Engie \(FR\)*]
-  ],
-  right-content: [
-    Nov 2024 – Jan 2025
-  ],
-)
+
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Led a Ruby on Rails team migrating a suite of 5 Rails applications from version 4 to 7.],[Upgraded the GitLab pipeline and Docker setup for the migrated monolith and supporting microservices.],)
+    #[*Collectively - theAmplify \(US\)*]
+
+    #v(-design-text-leading)
+    #v(design-highlights-top-margin);#highlights([Built an NLP utility for sentiment analysis, user clustering, and topic weighting using Google AutoML and Ernie RPC-based servers.],[Developed ML-driven services for creator analysis — anomaly detection, demographics analysis, and content sanity checks — in Ruby and Python.],[Built data-visualization dashboards using Google Data Studio and Looker to surface social media and influencer performance in real time.],[Upgraded a Rails v4 application to a modern Webpacker-based Rails 6 setup and integrated SSR React for complex interactivity.],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
+
+#one-col-entry(
+  content: [
     #[*SITA - DigiHub \(EU\)*]
-  ],
-  right-content: [
-    Nov 2023 – Sept 2024
-  ],
-)
-#one-col-entry(
-  content: [
+
+    #v(-design-text-leading)
     #v(design-highlights-top-margin);#highlights([Led the front-end team building a multinational airline and airport data-aggregation platform.],[Migrated the platform to Angular v18 with a microservices approach, sourcing data from Microsoft, ServiceNow, and Salesforce.],[Integrated Azure B2C auth, storage, Power BI, and SharePoint.],[Led a brand-level redesign, implemented as an Angular component library using PrimeNG and Tailwind.],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
+
+#one-col-entry(
+  content: [
     #[*GAEA - Exto \(IN\)*]
-  ],
-  right-content: [
-    Sept 2022 – Aug 2023
-  ],
-)
-#one-col-entry(
-  content: [
+
+    #v(-design-text-leading)
     #v(design-highlights-top-margin);#highlights([Built an adaptive scheduling algorithm for activities and resources in the project management system.],[Modernized a legacy Express codebase and implemented a policy-based authorization layer for access control and user impersonation.],[Developed the v2 backend with MongoDB and NestJS, retrofitting Jest and Playwright test coverage.],[Implemented the new scheduling UI with Angular, Bryntum Gantt, and PrimeNG.],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #[*Exeter - Kriyadocs \(IN\)*]
-  ],
-  right-content: [
-    Mar 2022 – July 2022
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Built a React library using ProseMirror \(Remirror\) for collaborative rich-text editing.],[Set up GitLab CI/CD and a private npm registry for the library.],[Developed a new dashboard consuming the library, using LibXML, Y.js/WebRTC, Bootstrap, and Fastify APIs.],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #[*ClinicalMind - DNA \(US\)*]
-  ],
-  right-content: [
-    May 2021 – May 2022
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Enabled SSR for React components within a Rails monolith and refactored it into manageable engines.],[Built an SFTP hot-folder configuration for report processing and data ingestion.],[Built a Java Spring Boot application for Word and PowerPoint processing using the Aspose toolchain.],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #[*Collectively - theAmplify \(US\)*]
-  ],
-  right-content: [
-    Apr 2019 – May 2021
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Built data-visualization dashboards using Google Data Studio and Looker to track social media and influencer performance in real time.],[Developed services for creator analysis — anomaly detection, demographics analysis, and content sanity checks — in Ruby and Python.],[Built an NLP utility for sentiment analysis, user clustering, and topic weighting using Google AutoML and Ernie RPC-based servers.],[Upgraded a Rails v4 application to a modern Webpacker-based Rails 6 setup and integrated SSR React for complex interactivity.],[Migrated a legacy class-based React codebase to TypeScript-based functional components with styled components.],)
   ],
 )
 

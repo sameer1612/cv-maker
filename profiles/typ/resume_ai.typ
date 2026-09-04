@@ -462,14 +462,14 @@
 == About
 
 #one-col-entry(
-  content: [A systems-focused polyglot engineer who enjoys modernizing messy platforms, scaling products, and turning complex problems into clean, maintainable systems — while owning the hardest parts along the way.]
+  content: [A systems-focused architect and engineering leader who pairs deep platform engineering with applied AI and agentic workflows — building in-house ML models, AI-assisted migrations, and clean, maintainable systems — while owning the hardest parts along the way.]
 )
 
 
 == Highlights
 
 #one-col-entry(
-  content: [- Delivered AI-enabled products, cloud integrations, and mission-critical solutions for construction, healthcare, aviation, and SaaS organizations.],
+  content: [- Designed platform architectures spanning AI systems, healthcare integrations, enterprise SaaS platforms, and large-scale modernization initiatives.],
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
@@ -482,10 +482,6 @@
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
   content: [- RubyConf India speaker and technical author with 100K+ reads on engineering and consulting topics.],
-)
-#v(design-entries-vertical-space-between-entries)
-#one-col-entry(
-  content: [- Recognized for driving platform modernization, engineering excellence, and enterprise architecture initiatives.],
 )
 
 
@@ -569,7 +565,18 @@ Apr 2019 – May 2021
     #[*AICrete \(US\)*]
 
     #v(-design-text-leading)
-    #v(design-highlights-top-margin);#highlights([Integrated in-house AI models for aggregate classification and structural property estimation from concrete sample images.],[Built the entire React/Remix frontend using agentic coding workflows with claude.],[Used AI-driven translation workflows and custom claude skills to migrate the platform to french with i18n.],[Used AI-assisted analysis to decompose the Django monolith into a REST API architecture with a React/Remix frontend.],[Wrote the full unit test suite using AI-assisted test generation.],[Optimized heavy analytics and table queries for up to 10x speed and memory improvement, using EXPLAIN ANALYZE-driven query analysis.],)
+    #v(design-highlights-top-margin);#highlights([Integrated in-house AI models for aggregate classification and structural property estimation from concrete sample images.],[Built the entire React/Remix frontend using agentic coding workflows with Claude.],[Used AI-driven translation workflows and custom Claude skills to migrate the platform to French with i18n.],[Used AI-assisted analysis to decompose the Django monolith into a REST API architecture, enabling incremental frontend migration.],[Accelerated test coverage development using AI-assisted workflows, reducing manual engineering effort while improving release confidence.],[Optimized heavy analytics and table queries for up to 10x speed and memory improvement, using EXPLAIN ANALYZE-driven query analysis.],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+
+#one-col-entry(
+  content: [
+    #[*Vidura \(IN\)*]
+
+    #v(-design-text-leading)
+    #v(design-highlights-top-margin);#highlights([Built an org-wide chat utility that ingested various types of documents into vector databases with metadata indexes for retrieval.],[Answered natural-language queries against an ever-growing organizational knowledge base using RAG.],[Rendered responses dynamically as text, charts, or tables depending on the query.],[Supported read-only natural-language queries directly against the PostgreSQL database.],[Enforced access-level security to protect sensitive data across users with different permission tiers.],[Generalized the platform into a domain-aware system that could integrate with any knowledge base.],)
   ],
 )
 
@@ -580,7 +587,7 @@ Apr 2019 – May 2021
     #[*Subscribili \(IN\)*]
 
     #v(-design-text-leading)
-    #v(design-highlights-top-margin);#highlights([Used AI-assisted tooling to migrate a large legacy JavaScript codebase to a modern TypeScript structure.],[Converted Figma designs directly to code using MCP-based workflows.],[Built dental subscription-management dashboards for patients and providers, unified in a composable, plug-and-play monorepo.],[Designed a bespoke component system using Radix and Tailwind.],[Implemented strong caching strategies to enhance UX and contributed to the platform's microservice migration.],)
+    #v(design-highlights-top-margin);#highlights([Used AI-assisted tooling to migrate a large legacy JavaScript codebase to a modern TypeScript structure.],[Converted Figma designs directly to code using MCP-based workflows.],[Built dental subscription-management dashboards for patients and providers, unified in a composable, plug-and-play monorepo.],[Designed a bespoke component system using Radix and Tailwind.],[Implemented caching strategies to enhance UX and contributed to the platform's microservice migration.],)
   ],
 )
 
@@ -591,7 +598,18 @@ Apr 2019 – May 2021
     #[*KCH \(UAE\)*]
 
     #v(-design-text-leading)
-    #v(design-highlights-top-margin);#highlights([Used AI-assisted code analysis to reverse-engineer business logic from a 20-year-old Windows-based EHR system to an on-prem private cloud.],[Configured and deployed the application across multiple environments using Arcon PAM.],[Re-architected the application from HL7 to FHIR.],[Delivered Oracle Millennium FHIR integration for custom OAuth, patient data, and appointment management.],)
+    #v(design-highlights-top-margin);#highlights([Used AI-assisted code analysis to reverse-engineer business logic from a 20-year-old Windows-based EHR system to an on-prem private cloud.],[Re-architected the application from HL7 to FHIR protocol and setup multi environment deployments.],[Delivered Oracle Millennium FHIR integration for custom OAuth, patient data, and appointment management.],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+
+#one-col-entry(
+  content: [
+    #[*Collectively - theAmplify \(US\)*]
+
+    #v(-design-text-leading)
+    #v(design-highlights-top-margin);#highlights([Built an NLP utility for sentiment analysis, user clustering, and topic weighting using Google AutoML and Ernie RPC-based servers.],[Developed ML-driven services for creator analysis — anomaly detection, demographics analysis, and content sanity checks — in Ruby and Python.],[Built data-visualization dashboards using Google Data Studio and Looker to surface social media and influencer performance in real time.],[Upgraded a Rails v4 application to a modern Webpacker-based Rails 6 setup and integrated SSR React for complex interactivity.],)
   ],
 )
 
@@ -614,17 +632,6 @@ Apr 2019 – May 2021
 
     #v(-design-text-leading)
     #v(design-highlights-top-margin);#highlights([Built an adaptive scheduling algorithm for activities and resources in the project management system.],[Modernized a legacy Express codebase and implemented a policy-based authorization layer for access control and user impersonation.],[Developed the v2 backend with MongoDB and NestJS, retrofitting Jest and Playwright test coverage.],[Implemented the new scheduling UI with Angular, Bryntum Gantt, and PrimeNG.],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-
-#one-col-entry(
-  content: [
-    #[*Collectively - theAmplify \(US\)*]
-
-    #v(-design-text-leading)
-    #v(design-highlights-top-margin);#highlights([Built an NLP utility for sentiment analysis, user clustering, and topic weighting using Google AutoML and Ernie RPC-based servers.],[Developed ML-driven services for creator analysis — anomaly detection, demographics analysis, and content sanity checks — in Ruby and Python.],[Built data-visualization dashboards using Google Data Studio and Looker to surface social media and influencer performance in real time.],[Upgraded a Rails v4 application to a modern Webpacker-based Rails 6 setup and integrated SSR React for complex interactivity.],)
   ],
 )
 
