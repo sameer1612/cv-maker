@@ -33,7 +33,7 @@ cv:
       - label: Languages
         details: Dart, Elixir, Java, JavaScript, Python, TypeScript, Ruby
       - label: Databases
-        details: Firebase/Firestore, MongoDB, MySQL, PostgreSQL, SQLite3
+        details: Firebase/Firestore, MongoDB, MySQL, Oracle, PostgreSQL, SQLite3
       - label: Frameworks
         details: Angular, Django, Express, FastAPI, Flask, Flutter, NestJS, React/Next.js, Ruby on Rails, Vue
       - label: UI & Design

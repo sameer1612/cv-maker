@@ -17,7 +17,7 @@ design:
     last_updated_date_and_page_numbering: grey
   text:
     font_family: Open Sans
-    font_size: 10pt
+    font_size: 9.5pt
     leading: 0.6em
     alignment: justified
     date_and_location_column_alignment: right

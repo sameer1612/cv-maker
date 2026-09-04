@@ -21,7 +21,7 @@
 #let design-section-titles-vertical-space-below = 0.7cm
 #let design-section-titles-small-caps = false
 #let design-links-use-external-link-icon = true
-#let design-text-font-size = 10pt
+#let design-text-font-size = 9.5pt
 #let design-text-leading = 0.6em
 #let design-text-font-family = "Open Sans"
 #let design-text-alignment = "justified"
@@ -541,7 +541,7 @@ Apr 2019 – May 2021
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#[*Databases:*] Firebase/Firestore, MongoDB, MySQL, PostgreSQL, SQLite3]
+  content: [#[*Databases:*] Firebase/Firestore, MongoDB, MySQL, Oracle, PostgreSQL, SQLite3]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
