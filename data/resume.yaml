@@ -113,7 +113,7 @@ cv:
       - title: Technical Blog
         description: 100K+ reads on engineering & consulting topics
         link_label: Medium Articles
-        url: https://medium.com/@sameer-kumar-1612
+        url: https://sameer-kumar-1612.medium.com
 
     socials:
       - label: Email
@@ -123,6 +123,6 @@ cv:
       - label: Github
         details: https://github.com/sameer1612
       - label: Medium
-        details: https://medium.com/@sameer-kumar-1612
+        details: https://sameer-kumar-1612.medium.com
       - label: Phone
         details: "+918117804649"

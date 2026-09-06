@@ -672,7 +672,7 @@ Apr 2019 – May 2021
     *Technical Blog*,
     100K+ reads on engineering & consulting topics  ],
   right-content: [
-#link("https://medium.com/\@sameer-kumar-1612")[Medium Articles]  ],
+#link("https://sameer-kumar-1612.medium.com")[Medium Articles]  ],
 )
 
 
@@ -691,7 +691,7 @@ Apr 2019 – May 2021
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#[*Medium:*] https://medium.com/\@sameer-kumar-1612]
+  content: [#[*Medium:*] https://sameer-kumar-1612.medium.com]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
