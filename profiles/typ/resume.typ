@@ -679,7 +679,7 @@ Apr 2019 – May 2021
 == Socials
 
 #one-col-entry(
-  content: [#[*Email:*] kumar.sam1612\@gmail.com]
+  content: [#[*Email:*] sameer.kumar2\@zensar.com]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
